@@ -60,7 +60,7 @@ Demo credentials: **username:** `demo` / **password:** `password`
 ## Clone and Open in Xcode
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/OrderFlow.git
+git clone https://github.com/kbleighton/OrderFlow.git
 cd OrderFlow
 open OrderFlow.xcodeproj
 ```

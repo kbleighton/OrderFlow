@@ -1,0 +1,93 @@
+# ===========================
+# Xcode
+# ===========================
+
+# Build artifacts
+build/
+DerivedData/
+*.o
+*.d
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode user-specific files
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+
+# Xcode Scheme files (keep shared schemes, ignore personal)
+*.xcodeproj/**/xcuserdata/
+*.xcodeproj/**/xcshareddata/xcschemes/*.xcscheme
+
+# Xcode generated
+*.xcscmblueprint
+
+# ===========================
+# Swift / SPM
+# ===========================
+.build/
+.swiftpm/
+Package.resolved
+
+# ===========================
+# CocoaPods (not used, but just in case)
+# ===========================
+Pods/
+Podfile.lock
+
+# ===========================
+# Carthage (not used, but just in case)
+# ===========================
+Carthage/Build/
+
+# ===========================
+# Fastlane
+# ===========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ===========================
+# Secrets & API Keys
+# ===========================
+.env
+.env.*
+Secrets.swift
+APIKeys.swift
+*.pem
+*.p12
+*.mobileprovision
+AuthKey_*.p8
+GoogleService-Info.plist
+
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ===========================
+# Test results
+# ===========================
+TestResults/
+*.xcresult
+
+# ===========================
+# CI / CD artifacts
+# ===========================
+*.log
+coverage/
